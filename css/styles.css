@@ -35,7 +35,7 @@ ul {
     padding-top: 94px;
     padding-bottom: 94px;
 }
-.item-header {
+.header {
     height: 80px;
     display: flex;
     align-items: center;
@@ -44,12 +44,12 @@ ul {
 header {
     border-bottom: 1px solid #ececec;
 }
-.navigation {
+.nav {
     display: flex;
     margin-left: 0;
     margin-right: 0;
 }
-.logo {
+.nav__logo {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19em;
@@ -62,7 +62,7 @@ header {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header_nav > li:nth-child(2) {
+.header > li:nth-child(2) {
     padding: 0 48px;
 }
 :root {
@@ -74,11 +74,11 @@ header {
     --grey1: #757575;
     --transition: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.web {
+.nav__logo--web {
     color: var(--blue);
 }
 
-.logo:hover {
+.nav__logo:hover {
     color: var(--dark);
 }
 
@@ -94,7 +94,7 @@ header {
 .list > li {
     padding: 0px;
 }
-.header_nav {
+.header-nav {
     font-size: 14px;
     line-height: 1.14em;
     letter-spacing: 0.02em;
@@ -104,16 +104,16 @@ header {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.item-list {
+.list--item {
     width: 352px;
     align-items: center;
     margin-left: 94px;
 }
 
-.header_nav:hover .header_nav:focus {
+.header-nav:hover .header-nav:focus {
     color: #646464;
 }
-.portfolio {
+.list__header--portfolio {
     text-decoration: none;
     font-style: normal;
     font-weight: 500;
@@ -123,7 +123,7 @@ header {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio:hover {
+.list__header--portfolio:hover {
     color: var(--blue);
     text-decoration: none;
 }
