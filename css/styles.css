@@ -35,7 +35,7 @@ ul {
     padding-top: 94px;
     padding-bottom: 94px;
 }
-.header {
+.item-header {
     height: 80px;
     display: flex;
     align-items: center;
@@ -44,12 +44,12 @@ ul {
 header {
     border-bottom: 1px solid #ececec;
 }
-.nav {
+.navigation {
     display: flex;
     margin-left: 0;
     margin-right: 0;
 }
-.nav__logo {
+.navigation__logo {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19em;
@@ -62,7 +62,7 @@ header {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header > li:nth-child(2) {
+.header_nav > li:nth-child(2) {
     padding: 0 48px;
 }
 :root {
@@ -74,15 +74,15 @@ header {
     --grey1: #757575;
     --transition: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.nav__logo--web {
+.navigation__logo--web {
     color: var(--blue);
 }
 
-.nav__logo:hover {
+.navigation__logo:hover {
     color: var(--dark);
 }
 
-.list {
+.navigation__list {
     display: flex;
     list-style: none;
     font-weight: 400;
@@ -91,10 +91,10 @@ header {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
-.list > li {
+.navigation__list > li {
     padding: 0px;
 }
-.header-nav {
+.header_nav {
     font-size: 14px;
     line-height: 1.14em;
     letter-spacing: 0.02em;
@@ -104,16 +104,16 @@ header {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.list--item {
+.item-list {
     width: 352px;
     align-items: center;
     margin-left: 94px;
 }
 
-.header-nav:hover .header-nav:focus {
+.header_nav:hover .header_nav:focus {
     color: #646464;
 }
-.list__header--portfolio {
+.header-nav__portfolio {
     text-decoration: none;
     font-style: normal;
     font-weight: 500;
@@ -123,7 +123,7 @@ header {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.list__header--portfolio:hover {
+.header-nav__portfolio:hover {
     color: var(--blue);
     text-decoration: none;
 }
@@ -162,11 +162,11 @@ header {
     padding-left: 351px;
 }
 
-.contact-nav > .header_nav:nth-child(2) {
+.contact-nav > .header-nav:nth-child(2) {
     padding-left: 30px;
 }
 
-.link-address {
+.header-nav__link-address {
     color: var(--grey1);
     text-decoration: none;
     transition-property: color;
@@ -174,12 +174,12 @@ header {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-address:hover,
-.link-address:focus {
+.header-nav__link-address:hover,
+.header-nav__link-address:focus {
     color: var(--blue);
     fill: var(--blue);
 }
-.item-head-main {
+.item-main {
     height: 600px;
     padding-top: 200px;
     background-image: linear-gradient(
@@ -258,7 +258,7 @@ header {
         background-color: var(--blue);
     }
 }
-*/ .box-label {
+.box-label {
     position: relative;
     display: flex;
     justify-content: center;
@@ -356,19 +356,20 @@ header {
 /* main index.html */
 
 /*svg*/
-.icon {
+.header-nav__icon {
     margin-right: 10px;
 }
-.icon-lorem {
+.lorem__icon {
     margin-left: 102px;
     margin-bottom: 30px;
     margin-top: 25px;
 }
-.lorem-list {
+.lorem__list {
     width: 270px;
     height: 120px;
     background-color: #f5f4fa;
     margin-bottom: 30px;
+    list-style: none;
 }
 .icon-social {
     width: 44px;
@@ -456,7 +457,7 @@ header {
 }
 
 /* koniec svg */
-.title {
+.item-main__title {
     flex: block;
     font-size: 44px;
     line-height: 1.36em;
@@ -468,11 +469,11 @@ header {
     height: 120px;
     text-align: center;
 }
-.item-head-main > .container {
+.item-main > .container {
     flex-direction: column;
     align-content: center;
 }
-.box-frist {
+.item-main__box {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 3px;
     border-width: 0;
@@ -493,14 +494,14 @@ header {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.box-frist:hover {
+.item-main__box:hover {
     cursor: pointer;
     background-color: var(--blue);
 }
-.feature {
+/* .feature {
     width: 1140px;
     height: 101px;
-}
+} */
 
 .lorem {
     display: flex;
@@ -508,10 +509,8 @@ header {
     gap: 10px;
     width: 1170px;
 }
-.lorem-list {
-    list-style: none;
-}
-.text {
+
+.lorem__text {
     width: 270px;
     height: 49px;
     font-family: "Roboto";
@@ -524,7 +523,7 @@ header {
     text-align: justify;
     flex-basis: calc((100% - 2 * 15px) / 4);
 }
-.header-text {
+.lorem__header-text {
     text-align: left;
     width: 270px;
     font-family: "Roboto";
@@ -552,12 +551,12 @@ header {
     margin-bottom: 50px;
     padding-top: 94px;
 }
-.img {
+.list-header__img {
     display: flex;
     gap: 20px;
     list-style: none;
 }
-.img > li {
+.list-header__img > li {
     margin: 0px;
 }
 .team {

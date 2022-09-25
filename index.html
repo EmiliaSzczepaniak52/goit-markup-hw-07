@@ -4,7 +4,6 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
@@ -15,158 +14,166 @@
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet"
     />
-
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
-    integrity="sha512-Y0MM+V6ymRKN2zStTqzQ227DWhhp4Mzdo6gnlRnuaNCbc+YN/ZH0sBCLTM4M0oSy9c9VKiCvd4Jk44aCLrNS5Q=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
+        integrity="sha512-Y0MM+V6ymRKN2zStTqzQ227DWhhp4Mzdo6gnlRnuaNCbc+YN/ZH0sBCLTM4M0oSy9c9VKiCvd4Jk44aCLrNS5Q=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
     />
 
-    <title>Studio</title>
-    <link rel="stylesheet" href="css/styles.css" />
-    <script src="./js/modal.js"></script>
+        <title>Studio</title>
+        <link rel="stylesheet" href="css/styles.css" />
+        <script src="./js/modal.js"></script>
 </head>
 <body>
     <header>
-        <div class="container header">
-        <nav class="nav">
-        <a class="nav__logo" href="./index.html">
-        <span class="nav__logo--web">Web</span>Studio</a>
-        <ul class="list list--item">
-            <li class="list__header-nav">
-            <a href="./index.html" class="list__header-nav--portfolio nav-agency">Agencja</a>
-            </li>
-            <li class="header-nav">
-            <a href="./portfolio.html" class="list__header-nav--portfolio">Portfolio</a>
-            </li>
-            <li class="header-nav">
-            <a href="kontakt.html" class="list__header-nav--portfolio">Kontakt</a>
-            </li>
-        </ul>
-        </nav>
-        <ul class="nav__contact">
-            <li class="header-nav">
-            <div class="box-img">
-             <a href="emailto:info@example.com" class="link-address">
-                <svg class="icon" width="16" height="12">
-                    <use href="./images/icons.svg#envelope"></use>
-                </svg>
-                info@devstudio.com
-             </a>
-            </div>
-            </li>
-            <li class="header-nav">
-            <div class="box-img">
-            <a href="tel:+48111111111" class="link-address">
-                <svg class="icon" width="10" height="16">
-                    <use href="./images/icons.svg#vector"></use>
-                </svg>
-                +48 111 111 111
-            </a>
-            </div>
-            </li>
-        </ul>
+        <div class="container item-header">
+            <nav class="navigation">
+                <a class="navigation__logo" href="./index.html">
+                        <span class="navigation__logo--web">Web</span>Studio
+                </a>
+                <ul class="navigation__list item-list">
+                    <li class="header_nav">
+                            <a href="./index.html" class="header-nav__portfolio nav-agency"
+                                >Agencja</a
+                            >
+                    </li>
+                    <li class="header-nav">
+                        <a href="./portfolio.html" class="header-nav__portfolio"
+                                >Portfolio</a
+                        >
+                    </li>
+                    <li class="header-nav">
+                        <a href="kontakt.html" class="header-nav__portfolio">Kontakt</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="contact-nav">
+                <li class="header-nav">
+                    <div class="header-nav">
+                        <a
+                        href="emailto:info@example.com"
+                        class="header-nav__link-address"
+                        >
+                        <svg class="header-nav__icon" width="16" height="12">
+                        <use
+                        href="./images/icons.svg#envelope"
+                        ></use>
+                        </svg>
+                            info@devstudio.com
+                        </a>
+                    </div>
+                </li>
+                <li class="header-nav">
+                    <div class="header-nav">
+                        <a href="tel:+48111111111" class="header-nav__link-address">
+                        <svg class="header-nav__icon" width="10" height="16">
+                        <use href="./images/icons.svg#vector"></use>
+                        </svg>
+                         +48 111 111 111
+                        </a>
+                    </div>
+                </li>
+            </ul>
         </div>
     </header>
     <main>
-        <section class="item-head-main section">
-                <div class="container">
-                    <h3 class="title">
+        <section class="item-main section">
+        <div class="container">
+            <h3 class="item-main__title">
                         EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
-                    </h3>
-                    <button type="button" class="box-frist" data-modal-open>
-                        Zamów usługę
-                    </button>
-                </div>
+            </h3>
+            <button type="button" class="item-main__box" data-modal-open>
+                Zamów usługę
+            </button>
+        </div>
         </section>
         <section class="section">
-                <div class="container">
-                    <ul class="lorem">
-                        <li class="lorem-list">
-                            <svg class="icon-lorem" width="70" height="70">
+            <div class="container">
+                <ul class="lorem">
+                    <li class="lorem__list">
+                            <svg class="lorem__icon" width="70" height="70">
                                 <use href="./images/icons.svg#antenna"></use>
                             </svg>
-                            <h3 class="header-text">Loren Ipsum</h3>
-                            <p class="text">
+                            <h3 class="lorem__header-text">Loren Ipsum</h3>
+                            <p class="lorem__text">
                                 Lorem ipsum dolor sit amet consectetur
                                 adipisicing elit. Hic est quia neque atque qui
                                 facilis ipsum architecto nostrum sit.
                             </p>
-                        </li>
-                        <li class="lorem-list">
-                            <svg class="icon-lorem" width="70" height="70">
+                    </li>
+                    <li class="lorem__list">
+                            <svg class="lorem__icon" width="70" height="70">
                                 <use href="./images/icons.svg#clock"></use>
                             </svg>
-                            <h3 class="header-text">Loren Ipsum</h3>
-                            <p class="text">
+                            <h3 class="lorem__header-text">Loren Ipsum</h3>
+                            <p class="lorem__text">
                                 Lorem ipsum dolor sit amet consectetur,
                                 adipisicing elit. Similique deleniti qui sunt
                                 impedit placeat perspiciatis iusto.
                             </p>
-                        </li>
-                        <li class="lorem-list">
-                            <svg class="icon-lorem" width="70" height="70">
+                    </li>
+                    <li class="lorem__list">
+                            <svg class="lorem__icon" width="70" height="70">
                                 <use href="./images/icons.svg#diagram"></use>
                             </svg>
-                            <h3 class="header-text">Loren Ipsum</h3>
-                            <p class="text">
+                            <h3 class="lorem__header-text">Loren Ipsum</h3>
+                            <p class="lorem__text">
                                 Lorem ipsum dolor sit amet consectetur
                                 adipisicing elit. Totam porro suscipit eveniet
                                 cumque dolores aliquam iusto.
                             </p>
-                        </li>
-                        <li class="lorem-list">
-                            <svg class="icon-lorem" width="70" height="70">
+                    </li>
+                    <li class="lorem__list">
+                            <svg class="lorem__icon" width="70" height="70">
                                 <use href="./images/icons.svg#astronaut"></use>
                             </svg>
-                            <h3 class="header-text">Loren Ipsum</h3>
-                            <p class="text">
+                            <h3 class="lorem__header-text">Loren Ipsum</h3>
+                            <p class="lorem__text">
                                 Lorem ipsum dolor sit amet consectetur
                                 adipisicing elit. Totam porro suscipit eveniet
                                 cumque dolores aliquam iusto.
                             </p>
-                        </li>
-                    </ul>
-                </div>
+                    </li>
+                </ul>
+            </div>
         </section>
         <section class="section">
-        <div class="container">
-                    <h2 class="list-header">Czym się zajmujemy?</h2>
-                    <ul class="img">
-                        <li class="box-label">
-                            <img
-                                src="images/box1.jpg"
-                                alt="computer"
-                                width="370"
-                                height="294"
-                            />
-                            <p class="label">Aplikacje komputerowe</p>
-                        </li>
-                        <li class="box-label">
-                            <img
-                                src="images/box2.jpg"
-                                alt="phone"
-                                width="370"
-                                height="294"
-                            />
-                            <p class="label">Aplikacje mobilne</p>
-                        </li>
-                        <li class="box-label">
-                            <img
-                                src="images/box3.jpg"
-                                alt="tablet"
-                                width="370"
-                                height="294"
-                            />
-                            <p class="label">Rozwiązania graficzne</p>
-                        </li>
-                    </ul>
-        </div>
+            <div class="container">
+                <h2 class="list-header">Czym się zajmujemy?</h2>
+                <ul class="list-headar__img">
+                    <li class="list-header__box">
+                        <img
+                        src="images/box1.jpg"
+                        alt="computer"
+                        width="370"
+                        height="294"
+                        />
+                        <p class="list-header__box--label">Aplikacje komputerowe</p>
+                    </li>
+                    <li class="list-header__box">
+                        <img
+                        src="images/box2.jpg"
+                        alt="phone"
+                        width="370"
+                        height="294"
+                        />
+                        <p class="list-header__box--label">Aplikacje mobilne</p>
+                    </li>
+                    <li class="list-header__box">
+                        <img
+                        src="images/box3.jpg"
+                        alt="tablet"
+                        width="370"
+                        height="294"
+                        />
+                        <p class="list-header__box--label">Rozwiązania graficzne</p>
+                    </li>
+                </ul>
+            </div>
         </section>
-
-            <section class="team section">
+        <section class="team section">
                 <div class="container">
                     <h2 class="list-header">Nasz zespół</h2>
 
@@ -449,8 +456,8 @@
                         </li>
                     </ul>
                 </div>
-            </section>
-            <section>
+        </section>
+        <section>
                 <div class="container">
                     <h2 class="list-header-top">Nasi klienci</h2>
                     <ul class="our-client">
@@ -498,7 +505,7 @@
                         </li>
                     </ul>
                 </div>
-            </section>
+        </section>
     </main>
         <footer class="footer-one">
             <div class="footer container">
