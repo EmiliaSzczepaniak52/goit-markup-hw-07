@@ -456,7 +456,7 @@ header {
 .close {
     fill: #212121;
 }
-.logo--footer {
+.one-white {
     color: var(--white);
 }
 
@@ -502,10 +502,6 @@ header {
     cursor: pointer;
     background-color: var(--blue);
 }
-/* .feature {
-    width: 1140px;
-    height: 101px;
-} */
 
 .lorem {
     display: flex;
@@ -629,9 +625,7 @@ header {
     align-content: flex-start;
     padding-top: 60px;
 }
-/* .footer {
-    
-} */
+
 .social-media {
     margin-left: 70px;
 }
@@ -675,14 +669,9 @@ header {
     list-style: none;
     padding-top: 9px;
 }
-.logo-address--link-address {
-    color: white;
-}
-a[title] {
-    text-decoration: underline;
-}
-.logo-address--nav_footer > .link-address {
-    color: var(--white);
+.logo-address__link-address {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
 }
 .list {
     list-style: none;

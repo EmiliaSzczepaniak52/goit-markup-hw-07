@@ -1,0 +1,39 @@
+.contact-nav {
+    font-style: normal;
+    display: flex;
+    list-style: none;
+    font-size: 14px;
+    line-height: 1.14em;
+    letter-spacing: 0.02em;
+    color: var(--grey1);
+    .header_nav {
+    font-size: 14px;
+    line-height: 1.14em;
+    letter-spacing: 0.02em;
+    align-items: center;
+    color: #546464;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    .header-nav__link-address {
+    color: var(--grey1);
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+&:hover{
+     color: var(--blue);
+    fill: var(--blue);
+
+}
+&:focus{ color: var(--blue);
+    fill: var(--blue);}
+    .header-nav__icon {
+    margin-right: 10px;
+    }
+
+}
+
+
+}
+}
