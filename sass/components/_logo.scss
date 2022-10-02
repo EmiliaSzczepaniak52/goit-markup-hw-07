@@ -14,7 +14,7 @@
     line-height: 1.36em;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: var(--white);
+    color: $white;
     font-weight: 900;
     width: 696px;
     height: 120px;
@@ -31,9 +31,9 @@
     line-height: 1.87;
     text-align: center;
     letter-spacing: 0.06em;
-    color: var(--white);
+    color: $white;
     cursor: pointer;
-    font-family: "Roboto", sans-serif;
+    font-family: $font;
     width: 200px;
     height: 50px;
     margin-top: 30px;
@@ -43,7 +43,7 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
     &:hover {
-    cursor: pointer;
-    background-color: var(--blue);
-}
+        cursor: pointer;
+        background-color: $blue;
+    }
 }

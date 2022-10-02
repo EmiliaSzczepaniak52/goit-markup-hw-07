@@ -1,4 +1,22 @@
-.list-header-top {
+.client{
+    .client-header {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        font-family: $font;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color:$dark1;
+        text-align:center;
+        margin-top:94px;
+        }
+.list__top {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -17,7 +35,7 @@
     border: 1px solid #afb1b8;
     border-radius: 4px;
     display: block;
-    fill: var(--grey1);
+    fill: $grey1;
     padding-left: 32px;
     padding-top: 16px;
     transition-property: border, fill;
@@ -25,11 +43,11 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     &:hover,
     &:focus {
-    background-color: var(--white);
-    border-color: var(--blue);
+    background-color: $white;
+    border-color: $blue;
     }
     &:hover .our-svg {
-    fill: var(--blue);
+    fill: $blue;
     }
         .our-svg {
          margin: auto;
@@ -41,4 +59,5 @@
 
 }
 
+}
 }

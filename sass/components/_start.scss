@@ -9,10 +9,10 @@ header {
     border-bottom: 1px solid #ececec;
 }
 body {
-    font-family: "Roboto", sans-serif;
+    font-family:$font;
     font-style: normal;
     font-weight: 500;
-    background-color: #fff;
+    background-color:$white;
     width: 1600px;
     margin: auto;
 }

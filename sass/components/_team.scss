@@ -1,32 +1,38 @@
 .team {
-    background-color: #f5f4fa;
+    background-color:$team;
     justify-content: center;
-    .list-header {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    margin: 0 auto;
-    margin-bottom: 50px;
-    }
+    .team__header {
+        font-family: $font;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color:$dark1;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        }
     .team__he-she {
     display: flex;
     gap: 30px;
         .team__our {
         list-style: none;
         width: 270px;
-        background-color: var(--white);
+        height: 428px;
+        background-color:$white;
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
          border-radius: 0px 0px 4px 4px;
             .team__person {
-            font-family: "Roboto";
+            font-family:$font;
             font-style: normal;
             font-weight: 500;
             font-size: 16px;
             line-height: 1.19em;
             text-align: center;
             letter-spacing: 0.03em;
-            color: #212121;
+            color:$dark1;
             padding-top: 30;
             }
             .team__our figcaption {
@@ -35,13 +41,13 @@
             padding: 30px 0;
              }
             .team__title-person {
-            font-family: "Roboto";
+            font-family:$font;
             font-weight: 400;
             font-size: 16px;
             line-height: 1.19em;
             text-align: center;
             letter-spacing: 0.03em;
-            color: #757575;
+            color:$grey1;
             margin-top: 16px;
             padding-bottom: 32px;
              }
@@ -53,20 +59,20 @@
                 .icon-social {
                 width: 44px;
                 height: 44px;
-                background-color: #ffffff;
+                background-color:$white;
                 display: flex;
                 border-radius: 50%;
                 fill: #afb1b8;
                 margin: 0px;
                 justify-content: center;
                 align-items: center;
-                transition: 250ms fill var(--transition),
+                transition: 250ms fill $transition,
                 250ms background-color var(--transition);
 
                  &:hover,
                 &:focus {
-                background-color: var(--blue);
-                fill: var(--white);
+                background-color: $blue;
+                fill: $white;
                 }
             .social {
              padding: 0 32px 0 32px;

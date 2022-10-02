@@ -23,38 +23,38 @@
     />
 
         <title>Studio</title>
-        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="stylesheet" href="css/main.min.css" />
         <script src="./js/modal.js"></script>
 </head>
 <body>
     <header>
-        <div class="container item-header">
+        <div class="container header-item">
             <nav class="navigation">
                 <a class="navigation__logo" href="./index.html">
                         <span class="navigation__logo--web">Web</span>Studio
                 </a>
                 <ul class="navigation__list item-list">
-                    <li class="header_nav">
-                            <a href="./index.html" class="header-nav__portfolio nav-agency"
+                    <li class="navigation__list--nav nav-agency">
+                            <a href="./index.html" class="navigation__portfolio nav-agency"
                                 >Agencja</a
                             >
                     </li>
-                    <li class="header-nav">
-                        <a href="./portfolio.html" class="header-nav__portfolio"
+                    <li class="navigation__list--nav">
+                        <a href="./portfolio.html" class="navigation__portfolio"
                                 >Portfolio</a
                         >
                     </li>
-                    <li class="header-nav">
-                        <a href="kontakt.html" class="header-nav__portfolio">Kontakt</a>
+                    <li class="navigation__list--nav">
+                        <a href="kontakt.html" class="navigation__portfolio">Kontakt</a>
                     </li>
                 </ul>
             </nav>
             <ul class="contact-nav">
-                <li class="header-nav">
-                    <div class="header-nav">
+                <li class="contact-nav__nav">
+                    <div class="contacy-nav__link">
                         <a
                         href="emailto:info@example.com"
-                        class="header-nav__link-address"
+                        class="contact-nav__link-address"
                         >
                         <svg class="header-nav__icon" width="16" height="12">
                         <use
@@ -65,10 +65,10 @@
                         </a>
                     </div>
                 </li>
-                <li class="header-nav">
-                    <div class="header-nav">
-                        <a href="tel:+48111111111" class="header-nav__link-address">
-                        <svg class="header-nav__icon" width="10" height="16">
+                <li class="contact-nav__nav">
+                    <div class="contact-nav__nav">
+                        <a href="tel:+48111111111" class="contact-nav__link-address">
+                        <svg class="contact-nav__icon" width="10" height="16">
                         <use href="./images/icons.svg#vector"></use>
                         </svg>
                          +48 111 111 111
@@ -140,42 +140,42 @@
             </div>
         </section>
         <section class="section">
-            <div class="container">
-                <h2 class="list-header">Czym się zajmujemy?</h2>
-                <ul class="list-header__img">
-                    <li class="list-header__box">
+            <div class="container list">
+                <h2 class="list__header">Czym się zajmujemy?</h2>
+                <ul class="list__img">
+                    <li class="list__img--box">
                         <img
                         src="images/box1.jpg"
                         alt="computer"
                         width="370"
                         height="294"
                         />
-                        <p class="list-header__box--label">Aplikacje komputerowe</p>
+                        <p class="list__img--box--label">Aplikacje komputerowe</p>
                     </li>
-                    <li class="list-header__box">
+                    <li class="list__img--box">
                         <img
                         src="images/box2.jpg"
                         alt="phone"
                         width="370"
                         height="294"
                         />
-                        <p class="list-header__box--label">Aplikacje mobilne</p>
+                        <p class="list__img--box--label">Aplikacje mobilne</p>
                     </li>
-                    <li class="list-header__box">
+                    <li class="list__img--box">
                         <img
                         src="images/box3.jpg"
                         alt="tablet"
                         width="370"
                         height="294"
                         />
-                        <p class="list-header__box--label">Rozwiązania graficzne</p>
+                        <p class="list__img--box--label">Rozwiązania graficzne</p>
                     </li>
                 </ul>
             </div>
         </section>
         <section class="team section">
             <div class="container">
-                <h2 class="list-header">Nasz zespół</h2>
+                <h2 class="team__header">Nasz zespół</h2>
                 <ul class="team__he-she">
                     <li class="team__our">
                     <figure>
@@ -457,8 +457,8 @@
             </div>
         </section>
         <section>
-            <div class="container">
-                <h2 class="list-header-top">Nasi klienci</h2>
+            <div class="container client">
+                <h2 class="client-header">Nasi klienci</h2>
                 <ul class="our-client">
                     <li>
                     <a class="client-svg" href="">
@@ -511,8 +511,8 @@
         <div>
             <div class="navigation-footer">
                 <a class="navigation__logo one-white" href="./index.html">
-                <span class="navigation__logo--web">Web</span>Studio
-                </a> 
+                    <span class="navigation__logo--web">Web</span>Studio
+            </a>
             </div>
             <address class="logo-address">
                 <p>m. Warszawa, Aleje Jerozolimskie 21</p>
@@ -592,7 +592,7 @@
                     </svg>
                 </button>
                
-                <form class="formk" method="POST">
+                <form class="formik" method="POST">
                   <h5 class="modal-header">Zostaw swoje dane w formularzu poniżej</h5>
                   <label class="modal-label">Imię
                   <input type="text" name="user-name" required class="modal-input"/>
@@ -605,7 +605,8 @@
                  <input type="email" name="user-email" required class="modal-input"/>
                  <svg class="modal-icon" width="12px" height="12px"><use href=./images/icons.svg#icon-email-vector></use></svg></label>
                  <label class="modal-label">Komentarz
-                 <textarea name="feedback" placeholder="Wprowadź tekst" required class="modal-input modal-feedback no-margin-bottom"></textarea></label>
+                 <textarea name="feedback" placeholder="Wprowadź tekst" required class="modal-input modal-feedback no-margin-bottom"></textarea>
+                </label>
                  
                  <label class="agreement">
                  <input

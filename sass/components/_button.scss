@@ -27,13 +27,13 @@
         &:focus,
         &:hover {
          animation-play-state: paused;
-          background-color: var(--blue);
+         background-color: var(--blue);
          color: #ffffff;
          box-shadow: 0px 2px 2px 0px #0000001f;
          box-shadow: 0px 1px 2px 0px #00000014;
          box-shadow: 0px 3px 1px 0px #0000001a;
          animation-name: changeBgColor;
-        }
+       
         @keyframes changeBgColor {
     0% {
         background-color: var(--blue);
@@ -47,6 +47,7 @@
         background-color: var(--blue);
     }
         }
+    
             }
 
 
@@ -55,5 +56,6 @@
 
 
 
+        }
 }
 }

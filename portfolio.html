@@ -14,59 +14,59 @@
             rel="stylesheet"
         />
 
-        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="stylesheet" href="css/main.min.css" />
     </head>
     <body>
         <header>
-          <div class="container item-header">
-            <nav class="navigation">
-                <a class="navigation__logo" href="./index.html">
-                        <span class="navigation__logo--web">Web</span>Studio
-                </a>
-                <ul class="navigation__list item-list">
-                    <li class="header_nav">
-                            <a href="./index.html" class="header-nav__portfolio nav-agency"
-                                >Agencja</a
+            <div class="container header-item">
+                <nav class="navigation">
+                    <a class="navigation__logo" href="./index.html">
+                            <span class="navigation__logo--web">Web</span>Studio
+                    </a>
+                    <ul class="navigation__list item-list">
+                        <li class="navigation__list--nav">
+                                <a href="./index.html" class="navigation__portfolio"
+                                    >Agencja</a
+                                >
+                        </li>
+                        <li class="navigation__list--nav">
+                            <a href="./portfolio.html" class="navigation__portfolio nav-agency"
+                                    >Portfolio</a
                             >
+                        </li>
+                        <li class="navigation__list--nav">
+                            <a href="kontakt.html" class="navigation__portfolio">Kontakt</a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="contact-nav">
+                    <li class="contact-nav__nav">
+                        <div class="contacy-nav__link">
+                            <a
+                            href="emailto:info@example.com"
+                            class="contact-nav__link-address"
+                            >
+                            <svg class="header-nav__icon" width="16" height="12">
+                            <use
+                            href="./images/icons.svg#envelope"
+                            ></use>
+                            </svg>
+                                info@devstudio.com
+                            </a>
+                        </div>
                     </li>
-                    <li class="header-nav">
-                        <a href="./portfolio.html" class="header-nav__portfolio"
-                                >Portfolio</a
-                        >
-                    </li>
-                    <li class="header-nav">
-                        <a href="kontakt.html" class="header-nav__portfolio">Kontakt</a>
+                    <li class="contact-nav__nav">
+                        <div class="contact-nav__nav">
+                            <a href="tel:+48111111111" class="contact-nav__link-address">
+                            <svg class="contact-nav__icon" width="10" height="16">
+                            <use href="./images/icons.svg#vector"></use>
+                            </svg>
+                             +48 111 111 111
+                            </a>
+                        </div>
                     </li>
                 </ul>
-            </nav>
-            <ul class="contact-nav">
-                <li class="header-nav">
-                    <div class="header-nav">
-                        <a
-                        href="emailto:info@example.com"
-                        class="header-nav__link-address"
-                        >
-                        <svg class="header-nav__icon" width="16" height="12">
-                        <use
-                        href="./images/icons.svg#envelope"
-                        ></use>
-                        </svg>
-                            info@devstudio.com
-                        </a>
-                    </div>
-                </li>
-                <li class="header-nav">
-                    <div class="header-nav">
-                        <a href="tel:+48111111111" class="header-nav__link-address">
-                        <svg class="header-nav__icon" width="10" height="16">
-                        <use href="./images/icons.svg#vector"></use>
-                        </svg>
-                         +48 111 111 111
-                        </a>
-                    </div>
-                </li>
-            </ul>
-        </div> 
+            </div> 
         </header>
         <main>
             <section>
@@ -227,7 +227,7 @@
                                                 na niezabezpieczone serwery
                                                 konkurencji
                                             </p>
-                                         </div>
+                                          </div>
                                         </div>
                                         <figcaption>
                                             <p class="fig-frist">
@@ -333,8 +333,8 @@
                              </li>
 
                             <li class="card__list">
-                                <div class="description-image">
                                     <figure>
+                                    <div class="description-image">
                                         <img
                                             class="ptf-img"
                                             src="images/ptf8.jpg"
@@ -342,7 +342,7 @@
                                             width="370"
                                             height="294"
                                         />
-                                          <div class="hidden-view">
+                                    <div class="hidden-view">
                                             <p class="hidden-text">
                                                 Technocrack jest popularną
                                                 platformą wykorzystywaną do
@@ -352,8 +352,8 @@
                                                 na niezabezpieczone serwery
                                                 konkurencji
                                             </p>
-                                         </div>
-                                        </div>
+                                    </div>
+                                    </div>
                                         <figcaption>
                                             <p class="fig-frist">
                                                 Grafika New Orlean vs Golden
@@ -403,77 +403,77 @@
             </section>
         </main>
         <footer class="footer-one">
-    <div class="container">
-        <div>
-            <div class="navigation-footer logo--footer">
-                <a class="navigation__logo one-white" href="./index.html">
-                <span class="navigation__logo--web">Web</span>Studio
-                </a> 
-            </div>
-            <address class="logo-address">
-                <p>m. Warszawa, Aleje Jerozolimskie 21</p>
-                <ul class="logo-address__contact-footer">
-                <li class="logo-address__nav_footer">
-                <a
-                href="mailto:info@example.com"
-                class="logo-address__link-address"
-                title="portfolio"
-                >info@devstudio.com</a>
-                </li>
-                <li class="logo-address__nav_footer">
-                <a href="tel:+48111111111" class="logo-address__link-address"
-                >+48 111 111 111</a>
-                </li>
-                </ul>
-                </address>
-                </div>
-                <div class="social-media">
-                <h5 class="footer-second">DOŁĄCZ DO NAS</h5>
-                <ul class="list">
-                    <li>
-                    <a href="" class="footer-svg">
-                    <svg width="20" height="20" class="footer-img">
-                    <use href="images/icons.svg#insta"></use>
-                    </svg>
+            <div class="container">
+                <div>
+                    <div class="navigation-footer">
+                        <a class="navigation__logo one-white" href="./index.html">
+                            <span class="navigation__logo--web">Web</span>Studio
                     </a>
-                    </li>
-                        <li class="">
-                            <a href="" class="footer-svg">
-                                <svg width="20" height="20" class="footer-img">
-                                    <use href="images/icons.svg#tw"></use>
-                                </svg>
-                            </a>
+                    </div>
+                    <address class="logo-address">
+                        <p>m. Warszawa, Aleje Jerozolimskie 21</p>
+                        <ul class="logo-address__contact-footer">
+                        <li class="logo-address__nav_footer">
+                        <a
+                        href="mailto:info@example.com"
+                        class="logo-address__link-address"
+                        title="portfolio"
+                        >info@devstudio.com</a>
                         </li>
-                        <li class="">
-                            <a href="" class="footer-svg">
-                                <svg width="20" height="20" class="footer-img">
-                                    <use href="images/icons.svg#face"></use>
-                                </svg>
-                            </a>
+                        <li class="logo-address__nav_footer">
+                        <a href="tel:+48111111111" class="logo-address__link-address"
+                        >+48 111 111 111</a>
                         </li>
-                        <li class="">
-                            <a href="" class="footer-svg">
-                                <svg width="20" height="20" class="footer-img">
-                                    <use href="images/icons.svg#in"></use>
-                                </svg>
-                            </a>
-                        </li>
-                </ul>
+                        </ul>
+                    </address>
                 </div>
-                <div class="footer-newsletter">
-                <h4 class="footer-second">Zapisz się do newslettera</h4>
-                <form name="newsletter" autocomplete="on" class="form-newsletter">
-                <label>
-                <input type="email" name="email" placeholder="E-mail" class="input-newsletter" />
-                </label>
-                <button type="submit" class="button-newsletter" name="button-news">
-                Zapisz się
-                <svg width="24" height="24" class="icon-button-newsletter">
-                <use href="./images/icons.svg#icon-send"></use>
-                </svg>
-                </button>
-                </form>
-                </div>
+                        <div class="social-media">
+                        <h5 class="footer-second">DOŁĄCZ DO NAS</h5>
+                        <ul class="list">
+                            <li>
+                            <a href="" class="footer-svg">
+                            <svg width="20" height="20" class="footer-img">
+                            <use href="images/icons.svg#insta"></use>
+                            </svg>
+                            </a>
+                            </li>
+                                <li class="">
+                                    <a href="" class="footer-svg">
+                                        <svg width="20" height="20" class="footer-img">
+                                            <use href="images/icons.svg#tw"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="" class="footer-svg">
+                                        <svg width="20" height="20" class="footer-img">
+                                            <use href="images/icons.svg#face"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="" class="footer-svg">
+                                        <svg width="20" height="20" class="footer-img">
+                                            <use href="images/icons.svg#in"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                        </ul>
+                        </div>
+                        <div class="footer-newsletter">
+                        <h4 class="footer-second">Zapisz się do newslettera</h4>
+                        <form name="newsletter" autocomplete="on" class="form-newsletter">
+                        <label>
+                        <input type="email" name="email" placeholder="E-mail" class="input-newsletter" />
+                        </label>
+                        <button type="submit" class="button-newsletter" name="button-news">
+                        Zapisz się
+                        <svg width="24" height="24" class="icon-button-newsletter">
+                        <use href="./images/icons.svg#icon-send"></use>
+                        </svg>
+                        </button>
+                        </form>
+                        </div>
             </div>
         </footer>
     </body>
