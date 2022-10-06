@@ -34,17 +34,17 @@
                         <span class="navigation__logo--web">Web</span>Studio
                 </a>
                 <ul class="navigation__list">
-                    <li class="navigation__list--nav ">
+                    <li class="navigation__list-item ">
                             <a href="./index.html" class="navigation__link navigation__link--underline"
                                 >Agencja</a
                             >
                     </li>
-                    <li class="navigation__list--nav">
+                    <li class="navigation__list-item">
                         <a href="./portfolio.html" class="navigation__link"
                                 >Portfolio</a
                         >
                     </li>
-                    <li class="navigation__list--nav">
+                    <li class="navigation__list-item">
                         <a href="kontakt.html" class="navigation__link">Kontakt</a>
                     </li>
                 </ul>
@@ -580,50 +580,51 @@
                 </div>
     </div>
     </footer>
-        <div class="backdrop backdrop--hidden" data-modal>
-            <div class="backdrop__modal">
-                <button class="backdorp__button" type="button" data-modal-close>
-                    <svg class="backdrop__svg">
-                        <use
-                            width="18"
-                            height="18"
-                            href="images/icons.svg#close"
-                        ></use>
-                    </svg>
-                </button>
-               
-                <form class="backdrop__form" method="POST">
-                  <h5 class="backdrop__form--heading">Zostaw swoje dane w formularzu poniżej</h5>
-                  <label class="backdrop__form--label">Imię
-                  <input type="text" name="user-name" required class="backdrop__form--input"/>
-                  <svg class="backdrop__form--icon" width="12px" height="12px"><use href=./images/icons.svg#icon-person-vector></use></svg></label>
-                  <label class="backdrop__form--label">Telefon
-                  <input type="tel" name="user-tel" required class="backdrop__form--input"/>
-                  <svg class="backdrop__form--icon" width="12px" height="12px"><use href=./images/icons.svg#icon-telephone-vector></use></svg></label>
-                 
-                 <label class="backdrop__form--label">Email
-                 <input type="email" name="user-email" required class="backdrop__form--input"/>
-                 <svg class="backdrop__form--icon" width="12px" height="12px"><use href=./images/icons.svg#icon-email-vector></use></svg></label>
-                 <label class="backdrop__form--label">Komentarz
-                 <textarea name="feedback" placeholder="Wprowadź tekst" required class="backdrop__form-input backdrop__form--feedback backdorp__form--margin"></textarea>
-                </label>
-                 
-                 <label class="backdrop__label">
-                 <input
-                 class="backdrop__form--checkbox backdrop__form--hidden"
-                 type="checkbox"
-                 name="agreement"
-                 value="agree"
-                  />
-                <svg width="16" height="15" class="backdrop__form--icon-checkbox">
-                <!-- <use href="./images/icon-ok.svg#icon-icon-ok"></use> -->
+    <div class="backdrop backdrop--hidden" data-modal>
+        <div class="backdrop__modal">
+            <button class="backdrop__button" type="button" data-modal-close>
+                <svg class="backdrop__svg">
+                    <use
+                        width="18"
+                        height="18"
+                        href="images/icons.svg#close"
+                    ></use>
                 </svg>
-                 <span>Oświadczam, iż akceptuję <a href="#" class="blue-text">Regulamin</a> i <a href="#" class="blue-text">Politykę Prywatności.</a></span></label>
-                </label>
-                 <button type="submit" class="backdrop__form--button">Wyślij</button>
-                </form>
-            </div>
+            </button>
+           
+            <form class="backdrop__form" method="POST">
+              <h5 class="backdrop__form--heading">Zostaw swoje dane w formularzu poniżej</h5>
+              <label class="backdrop__form--label">Imię
+              <input type="text" name="user-name" required class="backdrop__form--input"/>
+              <svg class="backdrop__form--icon" width="12px" height="12px"><use href=./images/icons.svg#icon-person-vector></use></svg></label>
+              <label class="backdrop__form--label">Telefon
+              <input type="tel" name="user-tel" required class="backdrop__form--input"/>
+              <svg class="backdrop__form--icon" width="12px" height="12px"><use href=./images/icons.svg#icon-telephone-vector></use></svg></label>
+             
+             <label class="backdrop__form--label">Email
+             <input type="email" name="user-email" required class="backdrop__form--input"/>
+             <svg class="backdrop__form--icon" width="12px" height="12px"><use href=./images/icons.svg#icon-email-vector></use></svg></label>
+             <label class="backdrop__form--label">Komentarz
+             <textarea name="feedback" placeholder="Wprowadź tekst" required class="backdrop__form-input backdrop__form--feedback backdorp__form--margin"></textarea>
+            </label>
+             
+             <label class="backdrop__label">
+             <input
+             class="backdrop__form--checkbox backdrop__form--hidden"
+             type="checkbox"
+             name="agreement"
+             value="agree"
+              />
+            <svg width="16" height="15" class="backdrop__form--icon-checkbox">
+            <!-- <use href="./images/icon-ok.svg#icon-icon-ok"></use> -->
+            </svg>
+             <span>Oświadczam, iż akceptuję <a href="#" class="blue-text">Regulamin</a> i <a href="#" class="blue-text">Politykę Prywatności.</a></span></label>
+            </label>
+             <button type="submit" class="backdrop__form--button">Wyślij</button>
+            </form>
         </div>
-        <script src="./js/modal.js"></script>
+    </div>
+    <script src="./js/modal.js"></script>
+             
 </body>
 </html>

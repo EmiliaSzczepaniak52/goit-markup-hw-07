@@ -84,7 +84,7 @@ ul {
       -ms-flex-align: center;
           align-items: center;
 }
-.navigation__list .navigation__list--nav {
+.navigation__list .navigation__list-item {
   font-size: 14px;
   line-height: 1.14em;
   letter-spacing: 0.02em;
@@ -97,10 +97,10 @@ ul {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   margin-left: 32px;
 }
-.navigation__list .navigation__list--nav:hover .navigation__list .navigation__list--nav:focus {
+.navigation__list .navigation__list-item:hover .navigation__list .navigation__list-item:focus {
   color: #646464;
 }
-.navigation__list .navigation__list--nav .navigation__link {
+.navigation__list .navigation__list-item .navigation__link {
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
@@ -113,11 +113,11 @@ ul {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.navigation__list .navigation__list--nav .navigation__link:hover {
+.navigation__list .navigation__list-item .navigation__link:hover {
   color: #2196f3;
   text-decoration: none;
 }
-.navigation__list .navigation__list--nav .navigation__link--underline {
+.navigation__list .navigation__list-item .navigation__link--underline {
   position: relative;
   color: #000;
   width: 53px;
@@ -129,7 +129,7 @@ ul {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.navigation__list .navigation__list--nav .navigation__link--underline::after {
+.navigation__list .navigation__list-item .navigation__link--underline::after {
   content: " ";
   display: block;
   width: 100%;
@@ -942,7 +942,7 @@ ul {
   border: 2px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
-.backdrop .backdrop__modal .backdrop__svg {
+.backdrop .backdrop__modal .backdrop__button .backdrop__svg {
   padding: 4px;
 }
 .backdrop .backdrop__modal .backdrop__form .backdrop__form--heading {
